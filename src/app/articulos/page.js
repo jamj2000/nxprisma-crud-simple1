@@ -14,9 +14,6 @@ export default async function Home() {
 
     return (
         <>
-            <label>Buscar:
-                <input type='search' defaultValue={search} placeholder='nombre de artículo' />
-            </label>
             <form>
                 <label>Nombre:
                     <input name='nombre' />
