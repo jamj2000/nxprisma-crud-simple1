@@ -6,7 +6,7 @@ import {
 } from '@/lib/actions'
 
 
-// export const dynamic = 'force-dynamic'
+export const dynamic = 'force-dynamic'
 
 export default async function Home() {
     const articulos = await getArticulos()
