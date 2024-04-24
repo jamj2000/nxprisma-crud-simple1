@@ -28,6 +28,7 @@ export default async function Home() {
                 </label>
 
                 <button formAction={newArticulo}>Nuevo artículo</button>
+                <button className='action' type='reset'>Limpiar campos</button>
             </form>
             {
                 articulos
